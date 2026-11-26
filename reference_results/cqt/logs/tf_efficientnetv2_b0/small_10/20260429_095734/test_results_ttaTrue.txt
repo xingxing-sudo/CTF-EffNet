@@ -1,0 +1,18 @@
+模型路径: ./cqt/logs/tf_efficientnetv2_b0/small_10/20260429_095734/best_model.pth
+测试集路径: ./cqt/cqt_picture/cqt_shipsear_small_90_test
+测试集样本数: 50843
+TTA: True
+============================================================
+准确率: 0.9216
+
+                       precision    recall  f1-score   support
+
+A_Large_Merchant_Ship     0.9000    0.9452    0.9221     12228
+    B_Small_Speedboat     0.9085    0.8638    0.8856      7947
+       C_Fishing_Boat     0.9197    0.8579    0.8877      6332
+              D_Ferry     0.9252    0.9355    0.9303     19197
+      E_Ambient_Noise     0.9832    0.9813    0.9823      5139
+
+             accuracy                         0.9216     50843
+            macro avg     0.9273    0.9167    0.9216     50843
+         weighted avg     0.9217    0.9216    0.9213     50843

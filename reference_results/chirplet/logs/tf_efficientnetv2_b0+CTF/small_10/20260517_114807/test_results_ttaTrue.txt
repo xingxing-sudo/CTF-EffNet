@@ -1,0 +1,15 @@
+模型路径: ./chirplet/logs/tf_efficientnetv2_b0+CTF/small_10/20260517_114807/best_model.pth
+CTF Residual Scale: 0.4735
+准确率: 0.9584
+
+                       precision    recall  f1-score   support
+
+A_Large_Merchant_Ship     0.9657    0.9787    0.9721     12228
+    B_Small_Speedboat     0.9529    0.9068    0.9293      7947
+       C_Fishing_Boat     0.9457    0.9468    0.9463      6332
+              D_Ferry     0.9537    0.9684    0.9610     19197
+      E_Ambient_Noise     0.9828    0.9671    0.9749      5139
+
+             accuracy                         0.9584     50843
+            macro avg     0.9602    0.9535    0.9567     50843
+         weighted avg     0.9584    0.9584    0.9583     50843

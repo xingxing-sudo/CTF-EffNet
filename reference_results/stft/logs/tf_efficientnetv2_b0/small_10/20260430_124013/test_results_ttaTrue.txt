@@ -1,0 +1,18 @@
+模型路径: ./stft/logs/tf_efficientnetv2_b0/small_10/20260430_124013/best_model.pth
+测试集路径: ./stft/stft_picture/stft_shipsear_small_90_test
+测试集样本数: 50843
+TTA: True
+============================================================
+准确率: 0.8953
+
+                       precision    recall  f1-score   support
+
+A_Large_Merchant_Ship     0.9167    0.9257    0.9211     12228
+    B_Small_Speedboat     0.8470    0.7748    0.8093      7947
+       C_Fishing_Boat     0.8769    0.8268    0.8511      6332
+              D_Ferry     0.8859    0.9306    0.9077     19197
+      E_Ambient_Noise     0.9713    0.9622    0.9668      5139
+
+             accuracy                         0.8953     50843
+            macro avg     0.8996    0.8840    0.8912     50843
+         weighted avg     0.8947    0.8953    0.8945     50843

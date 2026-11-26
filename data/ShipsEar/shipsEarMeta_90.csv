@@ -1,0 +1,91 @@
+filename,name,type,channeldepth,wind,distance,duration,fold,target
+80__04_10_12_adricristuy.wav,Adricristuy,Dredger,20.0,Not available,350 m,1:00,3,0
+10__10_07_13_marDeOnza_Sale.wav,Mar de Onza (Leaving),Passengers,4.8,0,<50,2:34,3,6
+14__10_07_13_piraCies_Espera.wav,Pirata de Cies (Waiting),Passengers,4.8,0,<50,1:00,5,6
+15__10_07_13_radaUno_Pasa.wav,Rada Uno (Passing),Tugboat,9.1,0,<50,2:22,1,11
+6__10_07_13_marDeCangas_Entra.wav,Mar de Cangas (Entering),Passengers,4.8,0,<50,5:01,1,6
+7__10_07_13_marDeCangas_Espera.wav,Mar de Cangas (Waiting),Passengers,4.8,0,<50,1:00,1,6
+13__10_07_13_piraCies_Entra.wav,Pirata de Cies (Entering),Passengers,4.8,0,<50,3:27,3,6
+11__10_07_13_minhoUno_Entra.wav,Minho Uno (Entering),Passengers,4.8,0,<50,1:22,1,6
+12__10_07_13_minhoUno_Sale.wav,Minho Uno (Leaving),Passengers,4.8,0,<50,2:01,4,6
+17__10_07_13_visionSub_Entra.wav,Mar de Mouro (Entering),Passengers,4.8,0,<50,1:16,4,6
+8__10_07_13_marDeOnza_Entra.wav,Mar de Onza (Entering),Passengers,4.8,0,<50,1:33,5,6
+9__10_07_13_marDeOnza_Espera.wav,Mar de Onza (Waiting),Passengers,4.8,0,<50,1:00,3,6
+16__10_07_13_mscOpera_InicioSalida.wav,MSC Opera,Ocean liner,9.1,0,<50,2:43,2,5
+21__18_07_13_lanchaMotora.wav,Motorboat,Motorboat,7.5,2,<50,0:43,1,2
+18__18_07_13_AutoPrideEntra.wav,Autopride (Entering),RORO,7.5,2,<50,11:22,4,8
+19__18_07_13_AutoprideMarchaAtras.wav,Autopride(reverse),RORO,7.5,2,<50,6:14,3,8
+20__18_07_13_AutopridePrepManiobra.wav,Autopride(preparing maneuver),RORO,7.5,2,<50,0:30,3,8
+38__19_07_13_Arroios_Sale_2entran.wav,Arroios,Passengers,5.8,13,<50,1:46,5,6
+40__19_07_13_MarDeCangas_Llega_Interf.wav,"Mar de Cangas (arrives, interference",Passengers,5.8,13,<50,0:44,5,6
+43__19_07_13_PirataDeCies_Llega_Interf.wav,"Pirata de Cies (arrives, interference)",Passengers,5.8,13,<50,0:51,5,6
+42__19_07_13_PirataCies_Sale.wav,Pirata de Cies (leaves),Passengers,5.8,13,<50,0:58,2,6
+41__19_07_13_MinoUno_Entra.wav,Minho uno (arrives),Passengers,5.8,13,<50,0:52,3,6
+39__19_07_13_lanchaMotora_Entra.wav,"Motorboat ""Duda"" (arrives)",Motorboat,5.8,13,<50,1:13,1,2
+45__19_07_13_yate_Sale.wav,Yacht (leaves),Motorboat,5.8,13,<50,1:32,2,2
+26__19_07_13_Lancha.wav,Motorboat,Motorboat,5.8,0,<50,0:23,4,2
+27__19_07_13_Lancha2.wav,Motorboat (close recording),Motorboat,5.8,0,<50,0:30,1,2
+28__19_07_13_NuevoRiaAldan.wav,Nuevo ria Aldan,Trawler,5.8,0,<50,2:43,5,10
+31__19_07_13_RemolcadorArrancaPara.wav,Tugboat (start-stop engine),Tugboat,5.8,0,<50,1:04,1,11
+29__19_07_13_practico.wav,Pilot ship,Pilot ship,5.8,0,<50,1:34,5,7
+30__19_07_13_practico2.wav,Pilot ship,Pilot ship,5.8,0,<50,0:44,1,7
+24__19_07_13_adventureFrenando_duda.wav,Adventure of the seas (slowing),Ocean liner,5.8,0,<50,0:42,4,5
+25__19_07_13_adventureOfTheSea_llegando.wav,Adventure of the seas (arrives),Ocean liner,5.8,0,<50,2:20,1,5
+22__19_07_13_adventure_maniobra.wav,Adventure of the seas (maneuver),Ocean liner,5.8,0,<50,0:53,3,5
+23__19_07_13_adventure_parado.wav,Adventure of the seas (stopped),Ocean liner,5.8,0,<50,0:09,2,5
+37__19_07_13_Velero_Sale.wav,Sailboat (starts and leaves),Sailboat,5.8,13,<50,0:43,5,9
+36__19_07_13_MinoUno_Sale.wav,Minho uno (leaving),Passengers,5.8,13,<50,1:41,2,6
+34__19_07_13_MarDeOnza_Llega.wav,Mar de Onza (arrives),Passengers,5.8,13,<50,2:03,2,6
+33__19_07_13_lanchaDuda_Sale.wav,"""Duda"" (going out)",Motorboat,5.8,13,<50,0:37,3,2
+35__19_07_13_MarDeOnza_sale.wav,Mar de Onza (going out),Passengers,5.8,13,<50,1:37,3,6
+32__19_07_13_Arroios_llega.wav,Arroios (arrives),Passengers,5.8,13,<50,3:36,4,6
+46__23_07_13_H3_bateero1.wav,Mussel boat1,Mussel boat,15.0,10.5,50-100,0:11,2,3
+54__23_07_13_H3_PirataSalvora_SALE1.wav,Pirata de Salvora (leaves),Passengers,15.0,10.5,50-100,1:08,2,6
+56__23_07_13_H3_velero1.wav,Sailboat,Sailboat,15.0,10.5,<50,0:49,1,9
+57__23_07_13_H3_velero2.wav,Sailboat 2,Sailboat,15.0,10.5,<50,0:19,5,9
+47__23_07_13_H2_bateero2.wav,Mussel boat2,Mussel boat,15.0,10.5,<50,5:14,5,3
+50__23_07_13_H3_lancha1.wav,Motorboat1,Motorboat,15.0,10.5,<50,1:04,3,2
+48__23_07_13_H3_bateero3_interf.wav,Mussel boat3 (interf),Mussel boat,15.0,10.5,<50,1:23,4,3
+53__23_07_13_H3_PirataSalvora_Llega1.wav,Pirata de Salvora (arrives),Passengers,15.0,10.5,50-100,2:41,3,6
+51__23_07_13_H3_lancha2_interf.wav,Motorboat2 (interf),Motorboat,15.0,10.5,50-100,1:40,5,2
+52__23_07_13_H3_lancha3_interf.wav,Motorboat3 (interf),Motorboat,15.0,10.5,50-100,2:04,3,2
+49__23_07_13_H1_bateero4.wav,Mussel boat4,Mussel boat,15.0,10.5,<50,2:47,5,3
+55__23_07_13_H3_PirataSalvora_SALE2.wav,"Pirata de Salvora (leaves, 2nd take)",Passengers,15.0,10.5,50-100,2:55,3,6
+62__23_07_13_H3_MarDeCangas_SALE.wav,Mar de Cangas (leaves),Passengers,12.0,10.5,50-100,5:14,3,6
+63__23_07_13_H3_MarDeOnza_LLEGA.wav,Mar de Onza (arrives),Passengers,12.0,10.5,50-100,3:16,3,6
+67__23_07_13_H3_PirataCiesSale.wav,Pirata de Cies,Passengers,12.0,10.5,50-100,4:16,2,6
+58__23_07_13_H2_EimskipReefer_Pesquerito1.wav,Eimskip Reefer (interf),RORO,12.0,10.5,>100,3:59,3,8
+66__23_07_13_H3_Pesquerito2_Velero.wav,Fishboat,Mussel boat,12.0,10.5,<50,2:35,1,3
+60__23_07_13_H3_MarDeCangas_LLEGA.wav,Mar de Cangas (arrives),Passengers,12.0,10.5,50-100,5:49,5,6
+59__23_07_13_H2_MarDeMouro.wav,Mar de Mouro (arrives),Passengers,12.0,10.5,50-100,4:10,1,6
+65__23_07_13_H3_MinhoUno_LLEGA.wav,Minho uno (arrives),Passengers,12.0,10.5,50-100,2:43,5,6
+61__23_07_13_H3_MarDeCangas_SALE-2.wav,Mar de Cangas (leaves 2),Passengers,12.0,10.5,50-100,2:23,4,6
+64__23_07_13_H3_MarDeOnza_SALE.wav,Mar de Onza (leaves),Passengers,12.0,10.5,50-100,2:13,2,6
+68__23_07_13_H3_veleroMarisol.wav,Sailboat,Sailboat,12.0,10.5,<50,4:57,5,9
+71__23_07_13_H3_Discovery_UK_DUDA.wav,Discovery UK,Ocean liner,14.0,18,>100,2:15,2,5
+77__23_07_13_H3_Planeadora.wav,High speed motorboat,Motorboat,14.0,18,50-100,1:32,2,2
+75__23_07_13_H3_pesquero1.wav,Fishboat 1,Fishboat,14.0,18,<50,0:53,2,1
+79__23_07_13_H3_zodiac.wav,Zodiac,Motorboat,14.0,18,50-100,1:39,3,2
+73__23_07_13_H3_pesqMariCarmen.wav,Mari Carmen fishboat,Fishboat,14.0,18,<50,2:19,2,1
+76__23_07_13_H3_pesquero2.wav,Fishboat 2,Fishboat,14.0,18,<50,2:57,3,1
+72__23_07_13_H3_lancha2.wav,Motorboat 2,Motorboat,14.0,18,<50,2:03,1,2
+74__23_07_13_H3_pesqSaladinoPrimero.wav,Saladino Primero,fishboat,14.0,18,<50,2:25,3,12
+70__23_07_13_H2_yatePeq.wav,Small yacht,Motorboat,14.0,18,<50,1:54,4,2
+69__23_07_13_H2_costaVoyager.wav,Costa Voyager,Ocean liner,14.0,18,50-100,6:40,1,5
+78__23_07_13_H3_vikingChance.wav,Viking Chance,RORO,14.0,18,50-100,3:08,3,8
+85__E__1L.wav,Natural ambient noise sample 1,Natural ambient noise,7.5,Not available,<50,1:25,4,4
+86__E__2M.wav,Natural ambient noise sample 2,Natural ambient noise,7.5,Not available,<50,1:39,1,4
+87__E__3H.wav,Natural ambient noise sample 3,Natural ambient noise,7.5,Not available,<50,1:38,1,4
+88__E__4L.wav,Natural ambient noise sample 4,Natural ambient noise,7.5,Not available,<50,1:33,2,4
+89__E__5M.wav,Natural ambient noise sample 5,Natural ambient noise,7.5,Not available,<50,1:33,3,4
+90__E__6H.wav,Natural ambient noise sample 6,Natural ambient noise,7.5,Not available,<50,1:31,1,4
+91__E__7H_N.wav,Natural ambient noise sample 7,Natural ambient noise,7.5,Not available,<50,0:34,2,4
+92__E__8H_N.wav,Natural ambient noise sample 8,Natural ambient noise,7.5,Not available,<50,1:07,3,4
+81__25_09_13_H3_corriente.wav,Maximum Flow,Natural ambient noise,7.5,5.29,<50m,2:00,1,4
+83__27_09_13_H3_oleaje.wav,Maximum wave,Natural ambient noise,7.5,1.93,<50m,2:00,1,4
+82__27_09_13_H3_lluvia.wav,Maximum rain,Natural ambient noise,7.5,3.34,<50m,2:00,4,4
+84__27_09_13_H3_viento.wav,Maximum wind,Natural ambient noise,7.5,12.21,<50m,2:00,2,4
+93__A__Draga_1.wav,Moanha tests sample 1,Dredger,12.0,Not available,100 m,0:30,4,0
+94__A__Draga_2.wav,Moanha tests sample 2,Dredger,12.0,Not available,100 m,0:50,4,0
+95__A__Draga_3.wav,Moanha tests sample 3,Dredger,12.0,Not available,100 m,1:00,5,0
+96__A__Draga_4.wav,Moanha tests sample 4,Dredger,12.0,Not available,100 m,1:02,3,0

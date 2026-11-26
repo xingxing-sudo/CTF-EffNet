@@ -1,0 +1,13 @@
+Test Accuracy: 0.9539
+Macro F1: 0.9519
+                       precision    recall  f1-score   support
+
+A_Large_Merchant_Ship       0.97      0.97      0.97     12431
+    B_Small_Speedboat       0.94      0.90      0.92      8079
+       C_Fishing_Boat       0.94      0.95      0.94      6437
+              D_Ferry       0.95      0.96      0.96     19517
+      E_Ambient_Noise       0.97      0.98      0.97      5223
+
+             accuracy                           0.95     51687
+            macro avg       0.95      0.95      0.95     51687
+         weighted avg       0.95      0.95      0.95     51687

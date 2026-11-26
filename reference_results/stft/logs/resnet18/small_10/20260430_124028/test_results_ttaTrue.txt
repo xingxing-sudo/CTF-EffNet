@@ -1,0 +1,14 @@
+模型: ResNet18
+准确率: 0.8076
+
+                       precision    recall  f1-score   support
+
+A_Large_Merchant_Ship     0.8546    0.8328    0.8435     12228
+    B_Small_Speedboat     0.8259    0.5038    0.6259      7947
+       C_Fishing_Boat     0.7508    0.7050    0.7272      6332
+              D_Ferry     0.7672    0.9125    0.8336     19197
+      E_Ambient_Noise     0.9232    0.9525    0.9376      5139
+
+             accuracy                         0.8076     50843
+            macro avg     0.8243    0.7813    0.7936     50843
+         weighted avg     0.8111    0.8076    0.8008     50843

@@ -1,0 +1,174 @@
+============================================================
+实验配置信息
+============================================================
+数据集路径: ./stft/stft_picture/stft_shipsear_small_10_train
+模型: tf_efficientnetv2_b0
+输入尺寸: 224
+Batch Size: 64
+Epochs: 70
+学习率: 0.0001
+优化器: AdamW (weight_decay=1e-4)
+学习率调度: Warmup 10 epoch + CosineAnnealing
+MixUp Alpha: 0.2, CutMix Alpha: 1.0, Prob: 0.5
+Label Smoothing: 0.1
+Drop Path Rate: 0.1, Dropout: 0.3
+随机种子: 456
+设备: cuda
+============================================================
+
+epoch,train_loss,train_acc,val_loss,val_acc
+1,1.6426,0.2180,1.6059,0.2355
+Val Per-Class Acc: A_Large_Merchant_Ship: 100.0% | B_Small_Speedboat: 0.0% | C_Fishing_Boat: 0.0% | D_Ferry: 0.0% | E_Ambient_Noise: 0.0%
+2,1.6069,0.2577,1.5767,0.2355
+Val Per-Class Acc: A_Large_Merchant_Ship: 100.0% | B_Small_Speedboat: 0.0% | C_Fishing_Boat: 0.0% | D_Ferry: 0.0% | E_Ambient_Noise: 0.0%
+3,1.5711,0.3204,1.5434,0.3689
+Val Per-Class Acc: A_Large_Merchant_Ship: 0.0% | B_Small_Speedboat: 0.0% | C_Fishing_Boat: 0.0% | D_Ferry: 99.7% | E_Ambient_Noise: 0.0%
+4,1.5454,0.3630,1.5231,0.3689
+Val Per-Class Acc: A_Large_Merchant_Ship: 0.0% | B_Small_Speedboat: 0.0% | C_Fishing_Boat: 0.0% | D_Ferry: 99.7% | E_Ambient_Noise: 0.0%
+5,1.5356,0.3824,1.5128,0.3747
+Val Per-Class Acc: A_Large_Merchant_Ship: 3.4% | B_Small_Speedboat: 0.0% | C_Fishing_Boat: 0.0% | D_Ferry: 99.1% | E_Ambient_Noise: 0.0%
+6,1.5262,0.3886,1.4844,0.3979
+Val Per-Class Acc: A_Large_Merchant_Ship: 30.0% | B_Small_Speedboat: 0.0% | C_Fishing_Boat: 0.0% | D_Ferry: 88.4% | E_Ambient_Noise: 0.0%
+7,1.5117,0.3929,1.4638,0.4095
+Val Per-Class Acc: A_Large_Merchant_Ship: 35.0% | B_Small_Speedboat: 0.0% | C_Fishing_Boat: 0.0% | D_Ferry: 88.4% | E_Ambient_Noise: 0.0%
+8,1.4932,0.4119,1.3859,0.4432
+Val Per-Class Acc: A_Large_Merchant_Ship: 67.5% | B_Small_Speedboat: 0.0% | C_Fishing_Boat: 0.0% | D_Ferry: 75.9% | E_Ambient_Noise: 3.5%
+9,1.4728,0.4209,1.3274,0.4722
+Val Per-Class Acc: A_Large_Merchant_Ship: 82.3% | B_Small_Speedboat: 0.0% | C_Fishing_Boat: 0.0% | D_Ferry: 70.8% | E_Ambient_Noise: 16.5%
+10,1.4522,0.4221,1.2832,0.5209
+Val Per-Class Acc: A_Large_Merchant_Ship: 83.7% | B_Small_Speedboat: 15.9% | C_Fishing_Boat: 0.0% | D_Ferry: 65.8% | E_Ambient_Noise: 56.5%
+11,1.4307,0.4511,1.2435,0.5522
+Val Per-Class Acc: A_Large_Merchant_Ship: 89.2% | B_Small_Speedboat: 18.2% | C_Fishing_Boat: 0.0% | D_Ferry: 63.3% | E_Ambient_Noise: 81.2%
+12,1.4045,0.4703,1.2252,0.5336
+Val Per-Class Acc: A_Large_Merchant_Ship: 93.1% | B_Small_Speedboat: 27.3% | C_Fishing_Boat: 0.8% | D_Ferry: 56.4% | E_Ambient_Noise: 63.5%
+13,1.3989,0.4882,1.1696,0.5893
+Val Per-Class Acc: A_Large_Merchant_Ship: 73.9% | B_Small_Speedboat: 17.4% | C_Fishing_Boat: 4.9% | D_Ferry: 80.3% | E_Ambient_Noise: 85.9%
+14,1.3679,0.5108,1.1124,0.6404
+Val Per-Class Acc: A_Large_Merchant_Ship: 90.1% | B_Small_Speedboat: 31.1% | C_Fishing_Boat: 21.1% | D_Ferry: 71.8% | E_Ambient_Noise: 85.9%
+15,1.3551,0.5218,1.0696,0.6497
+Val Per-Class Acc: A_Large_Merchant_Ship: 87.2% | B_Small_Speedboat: 19.7% | C_Fishing_Boat: 17.1% | D_Ferry: 80.6% | E_Ambient_Noise: 92.9%
+16,1.3248,0.5428,1.0800,0.6450
+Val Per-Class Acc: A_Large_Merchant_Ship: 56.7% | B_Small_Speedboat: 29.5% | C_Fishing_Boat: 39.8% | D_Ferry: 87.5% | E_Ambient_Noise: 87.1%
+17,1.2899,0.5763,0.9896,0.7181
+Val Per-Class Acc: A_Large_Merchant_Ship: 85.2% | B_Small_Speedboat: 31.1% | C_Fishing_Boat: 65.9% | D_Ferry: 78.7% | E_Ambient_Noise: 85.9%
+18,1.2850,0.5827,0.9671,0.7332
+Val Per-Class Acc: A_Large_Merchant_Ship: 86.7% | B_Small_Speedboat: 34.8% | C_Fishing_Boat: 53.7% | D_Ferry: 82.8% | E_Ambient_Noise: 94.1%
+19,1.2685,0.5973,0.9464,0.7332
+Val Per-Class Acc: A_Large_Merchant_Ship: 94.1% | B_Small_Speedboat: 28.8% | C_Fishing_Boat: 52.0% | D_Ferry: 82.1% | E_Ambient_Noise: 90.6%
+20,1.2393,0.6101,0.9348,0.7309
+Val Per-Class Acc: A_Large_Merchant_Ship: 79.8% | B_Small_Speedboat: 33.3% | C_Fishing_Boat: 54.5% | D_Ferry: 86.5% | E_Ambient_Noise: 95.3%
+21,1.2323,0.6358,0.8958,0.7622
+Val Per-Class Acc: A_Large_Merchant_Ship: 89.7% | B_Small_Speedboat: 40.2% | C_Fishing_Boat: 70.7% | D_Ferry: 79.9% | E_Ambient_Noise: 94.1%
+22,1.1952,0.6550,0.8449,0.7796
+Val Per-Class Acc: A_Large_Merchant_Ship: 88.2% | B_Small_Speedboat: 43.2% | C_Fishing_Boat: 68.3% | D_Ferry: 85.0% | E_Ambient_Noise: 95.3%
+23,1.2335,0.6350,0.8556,0.7807
+Val Per-Class Acc: A_Large_Merchant_Ship: 92.1% | B_Small_Speedboat: 35.6% | C_Fishing_Boat: 73.2% | D_Ferry: 85.0% | E_Ambient_Noise: 91.8%
+24,1.1748,0.6660,0.8241,0.7889
+Val Per-Class Acc: A_Large_Merchant_Ship: 93.1% | B_Small_Speedboat: 48.5% | C_Fishing_Boat: 64.2% | D_Ferry: 83.7% | E_Ambient_Noise: 95.3%
+25,1.1836,0.6657,0.8297,0.7970
+Val Per-Class Acc: A_Large_Merchant_Ship: 87.7% | B_Small_Speedboat: 45.5% | C_Fishing_Boat: 57.7% | D_Ferry: 93.4% | E_Ambient_Noise: 94.1%
+26,1.1321,0.6975,0.7966,0.7981
+Val Per-Class Acc: A_Large_Merchant_Ship: 86.7% | B_Small_Speedboat: 50.8% | C_Fishing_Boat: 69.9% | D_Ferry: 87.8% | E_Ambient_Noise: 92.9%
+27,1.1199,0.7152,0.7711,0.8248
+Val Per-Class Acc: A_Large_Merchant_Ship: 92.1% | B_Small_Speedboat: 57.6% | C_Fishing_Boat: 72.4% | D_Ferry: 87.8% | E_Ambient_Noise: 92.9%
+28,1.1047,0.7300,0.7500,0.8295
+Val Per-Class Acc: A_Large_Merchant_Ship: 91.6% | B_Small_Speedboat: 60.6% | C_Fishing_Boat: 73.2% | D_Ferry: 87.5% | E_Ambient_Noise: 94.1%
+29,1.1172,0.7139,0.7433,0.8271
+Val Per-Class Acc: A_Large_Merchant_Ship: 92.6% | B_Small_Speedboat: 61.4% | C_Fishing_Boat: 71.5% | D_Ferry: 87.1% | E_Ambient_Noise: 91.8%
+30,1.0740,0.7556,0.7249,0.8492
+Val Per-Class Acc: A_Large_Merchant_Ship: 92.6% | B_Small_Speedboat: 67.4% | C_Fishing_Boat: 79.7% | D_Ferry: 86.2% | E_Ambient_Noise: 96.5%
+31,1.1073,0.7257,0.7337,0.8422
+Val Per-Class Acc: A_Large_Merchant_Ship: 91.6% | B_Small_Speedboat: 65.9% | C_Fishing_Boat: 74.0% | D_Ferry: 88.1% | E_Ambient_Noise: 95.3%
+32,1.1004,0.7395,0.7125,0.8469
+Val Per-Class Acc: A_Large_Merchant_Ship: 90.6% | B_Small_Speedboat: 66.7% | C_Fishing_Boat: 73.2% | D_Ferry: 90.3% | E_Ambient_Noise: 94.1%
+33,1.0300,0.7759,0.7039,0.8538
+Val Per-Class Acc: A_Large_Merchant_Ship: 90.1% | B_Small_Speedboat: 67.4% | C_Fishing_Boat: 78.9% | D_Ferry: 89.7% | E_Ambient_Noise: 95.3%
+34,1.0878,0.7523,0.7062,0.8469
+Val Per-Class Acc: A_Large_Merchant_Ship: 94.1% | B_Small_Speedboat: 62.1% | C_Fishing_Boat: 76.4% | D_Ferry: 88.7% | E_Ambient_Noise: 94.1%
+35,1.0523,0.7769,0.6976,0.8619
+Val Per-Class Acc: A_Large_Merchant_Ship: 92.1% | B_Small_Speedboat: 73.5% | C_Fishing_Boat: 79.7% | D_Ferry: 88.1% | E_Ambient_Noise: 94.1%
+36,1.0394,0.7792,0.6726,0.8631
+Val Per-Class Acc: A_Large_Merchant_Ship: 92.6% | B_Small_Speedboat: 70.5% | C_Fishing_Boat: 78.9% | D_Ferry: 89.3% | E_Ambient_Noise: 95.3%
+37,1.0803,0.7590,0.6812,0.8712
+Val Per-Class Acc: A_Large_Merchant_Ship: 91.1% | B_Small_Speedboat: 81.1% | C_Fishing_Boat: 77.2% | D_Ferry: 88.4% | E_Ambient_Noise: 96.5%
+38,1.0058,0.8015,0.6709,0.8677
+Val Per-Class Acc: A_Large_Merchant_Ship: 91.6% | B_Small_Speedboat: 77.3% | C_Fishing_Boat: 76.4% | D_Ferry: 89.3% | E_Ambient_Noise: 95.3%
+39,1.0274,0.7948,0.6680,0.8677
+Val Per-Class Acc: A_Large_Merchant_Ship: 91.1% | B_Small_Speedboat: 68.2% | C_Fishing_Boat: 75.6% | D_Ferry: 93.1% | E_Ambient_Noise: 97.6%
+40,1.0353,0.7889,0.6633,0.8747
+Val Per-Class Acc: A_Large_Merchant_Ship: 91.6% | B_Small_Speedboat: 72.0% | C_Fishing_Boat: 81.3% | D_Ferry: 90.9% | E_Ambient_Noise: 97.6%
+41,1.0290,0.7969,0.6658,0.8770
+Val Per-Class Acc: A_Large_Merchant_Ship: 91.6% | B_Small_Speedboat: 79.5% | C_Fishing_Boat: 82.1% | D_Ferry: 88.7% | E_Ambient_Noise: 95.3%
+42,1.0015,0.8271,0.6425,0.8770
+Val Per-Class Acc: A_Large_Merchant_Ship: 90.6% | B_Small_Speedboat: 77.3% | C_Fishing_Boat: 78.0% | D_Ferry: 91.2% | E_Ambient_Noise: 97.6%
+43,1.0180,0.7951,0.6506,0.8689
+Val Per-Class Acc: A_Large_Merchant_Ship: 93.1% | B_Small_Speedboat: 68.2% | C_Fishing_Boat: 79.7% | D_Ferry: 90.3% | E_Ambient_Noise: 98.8%
+44,1.0038,0.8040,0.6526,0.8654
+Val Per-Class Acc: A_Large_Merchant_Ship: 89.7% | B_Small_Speedboat: 70.5% | C_Fishing_Boat: 77.2% | D_Ferry: 91.5% | E_Ambient_Noise: 98.8%
+45,0.9958,0.8069,0.6368,0.8817
+Val Per-Class Acc: A_Large_Merchant_Ship: 93.6% | B_Small_Speedboat: 73.5% | C_Fishing_Boat: 80.5% | D_Ferry: 91.2% | E_Ambient_Noise: 97.6%
+46,0.9818,0.8368,0.6388,0.8747
+Val Per-Class Acc: A_Large_Merchant_Ship: 92.1% | B_Small_Speedboat: 76.5% | C_Fishing_Boat: 79.7% | D_Ferry: 89.0% | E_Ambient_Noise: 98.8%
+47,1.0185,0.8186,0.6381,0.8794
+Val Per-Class Acc: A_Large_Merchant_Ship: 92.1% | B_Small_Speedboat: 75.0% | C_Fishing_Boat: 81.3% | D_Ferry: 90.6% | E_Ambient_Noise: 97.6%
+48,0.9659,0.8389,0.6255,0.8863
+Val Per-Class Acc: A_Large_Merchant_Ship: 93.6% | B_Small_Speedboat: 75.0% | C_Fishing_Boat: 82.9% | D_Ferry: 90.6% | E_Ambient_Noise: 98.8%
+49,0.9861,0.8166,0.6310,0.8944
+Val Per-Class Acc: A_Large_Merchant_Ship: 94.1% | B_Small_Speedboat: 73.5% | C_Fishing_Boat: 87.8% | D_Ferry: 91.5% | E_Ambient_Noise: 97.6%
+50,0.9123,0.8660,0.6197,0.8875
+Val Per-Class Acc: A_Large_Merchant_Ship: 94.1% | B_Small_Speedboat: 75.0% | C_Fishing_Boat: 83.7% | D_Ferry: 90.6% | E_Ambient_Noise: 97.6%
+51,0.9619,0.8499,0.6207,0.8886
+Val Per-Class Acc: A_Large_Merchant_Ship: 94.1% | B_Small_Speedboat: 77.3% | C_Fishing_Boat: 82.9% | D_Ferry: 90.0% | E_Ambient_Noise: 98.8%
+52,0.9267,0.8655,0.6216,0.8968
+Val Per-Class Acc: A_Large_Merchant_Ship: 93.6% | B_Small_Speedboat: 78.8% | C_Fishing_Boat: 82.9% | D_Ferry: 91.8% | E_Ambient_Noise: 98.8%
+53,0.9793,0.8386,0.6262,0.8898
+Val Per-Class Acc: A_Large_Merchant_Ship: 93.6% | B_Small_Speedboat: 74.2% | C_Fishing_Boat: 82.9% | D_Ferry: 91.8% | E_Ambient_Noise: 98.8%
+54,0.9888,0.8189,0.6293,0.8840
+Val Per-Class Acc: A_Large_Merchant_Ship: 93.6% | B_Small_Speedboat: 73.5% | C_Fishing_Boat: 80.5% | D_Ferry: 91.5% | E_Ambient_Noise: 98.8%
+55,0.9682,0.8481,0.6216,0.8898
+Val Per-Class Acc: A_Large_Merchant_Ship: 93.6% | B_Small_Speedboat: 76.5% | C_Fishing_Boat: 83.7% | D_Ferry: 90.6% | E_Ambient_Noise: 98.8%
+56,1.0122,0.8181,0.6193,0.8921
+Val Per-Class Acc: A_Large_Merchant_Ship: 92.6% | B_Small_Speedboat: 75.8% | C_Fishing_Boat: 84.6% | D_Ferry: 92.2% | E_Ambient_Noise: 97.6%
+57,0.9793,0.8381,0.6169,0.8968
+Val Per-Class Acc: A_Large_Merchant_Ship: 93.6% | B_Small_Speedboat: 77.3% | C_Fishing_Boat: 82.1% | D_Ferry: 92.8% | E_Ambient_Noise: 98.8%
+58,0.9090,0.8737,0.6121,0.8991
+Val Per-Class Acc: A_Large_Merchant_Ship: 93.6% | B_Small_Speedboat: 78.0% | C_Fishing_Boat: 87.0% | D_Ferry: 91.2% | E_Ambient_Noise: 98.8%
+59,0.9311,0.8507,0.6116,0.8968
+Val Per-Class Acc: A_Large_Merchant_Ship: 92.1% | B_Small_Speedboat: 78.0% | C_Fishing_Boat: 85.4% | D_Ferry: 92.2% | E_Ambient_Noise: 98.8%
+60,1.0414,0.7966,0.6158,0.8921
+Val Per-Class Acc: A_Large_Merchant_Ship: 94.1% | B_Small_Speedboat: 75.0% | C_Fishing_Boat: 85.4% | D_Ferry: 90.9% | E_Ambient_Noise: 98.8%
+61,0.9327,0.8491,0.6138,0.9014
+Val Per-Class Acc: A_Large_Merchant_Ship: 94.1% | B_Small_Speedboat: 76.5% | C_Fishing_Boat: 85.4% | D_Ferry: 92.8% | E_Ambient_Noise: 98.8%
+62,0.9246,0.8714,0.6146,0.8933
+Val Per-Class Acc: A_Large_Merchant_Ship: 93.1% | B_Small_Speedboat: 76.5% | C_Fishing_Boat: 84.6% | D_Ferry: 91.5% | E_Ambient_Noise: 98.8%
+63,0.9595,0.8589,0.6178,0.8979
+Val Per-Class Acc: A_Large_Merchant_Ship: 94.1% | B_Small_Speedboat: 75.8% | C_Fishing_Boat: 85.4% | D_Ferry: 92.2% | E_Ambient_Noise: 98.8%
+64,0.9404,0.8660,0.6132,0.8921
+Val Per-Class Acc: A_Large_Merchant_Ship: 94.6% | B_Small_Speedboat: 77.3% | C_Fishing_Boat: 81.3% | D_Ferry: 91.2% | E_Ambient_Noise: 98.8%
+65,0.9022,0.8858,0.6088,0.8991
+Val Per-Class Acc: A_Large_Merchant_Ship: 94.1% | B_Small_Speedboat: 76.5% | C_Fishing_Boat: 84.6% | D_Ferry: 92.5% | E_Ambient_Noise: 98.8%
+66,0.9647,0.8568,0.6124,0.8944
+Val Per-Class Acc: A_Large_Merchant_Ship: 93.6% | B_Small_Speedboat: 78.0% | C_Fishing_Boat: 82.1% | D_Ferry: 91.8% | E_Ambient_Noise: 98.8%
+67,0.9172,0.8642,0.6112,0.8933
+Val Per-Class Acc: A_Large_Merchant_Ship: 93.6% | B_Small_Speedboat: 76.5% | C_Fishing_Boat: 82.9% | D_Ferry: 91.8% | E_Ambient_Noise: 98.8%
+68,0.9540,0.8471,0.6086,0.9014
+Val Per-Class Acc: A_Large_Merchant_Ship: 93.1% | B_Small_Speedboat: 80.3% | C_Fishing_Boat: 87.8% | D_Ferry: 90.9% | E_Ambient_Noise: 98.8%
+69,0.9019,0.8742,0.6085,0.9026
+Val Per-Class Acc: A_Large_Merchant_Ship: 94.1% | B_Small_Speedboat: 78.8% | C_Fishing_Boat: 82.9% | D_Ferry: 93.1% | E_Ambient_Noise: 98.8%
+70,0.9364,0.8645,0.6093,0.8956
+Val Per-Class Acc: A_Large_Merchant_Ship: 94.1% | B_Small_Speedboat: 78.0% | C_Fishing_Boat: 83.7% | D_Ferry: 91.2% | E_Ambient_Noise: 98.8%
+
+==================================================
+训练总耗时: 6.6 分钟
+测试集准确率 (TTA): 0.8838
+                       precision    recall  f1-score   support
+
+A_Large_Merchant_Ship     0.9196    0.8927    0.9059       205
+    B_Small_Speedboat     0.7812    0.7519    0.7663       133
+       C_Fishing_Boat     0.8678    0.8468    0.8571       124
+              D_Ferry     0.8836    0.9221    0.9024       321
+      E_Ambient_Noise     0.9767    0.9767    0.9767        86
+
+             accuracy                         0.8838       869
+            macro avg     0.8858    0.8780    0.8817       869
+         weighted avg     0.8834    0.8838    0.8833       869

@@ -1,0 +1,4 @@
+﻿Config,Accuracy,Kappa,Macro-P,Macro-R,Macro-F1
+w/o Learnable Chirp Prior,0.9549,0.9397,0.9561,0.9497,0.9526
+w/o Deep Fusion,0.9568,0.9421,0.9611,0.9493,0.9548
+w/o Residual Gate,0.9556,0.9404,0.9612,0.9469,0.9537

@@ -1,0 +1,15 @@
+模型: ResNet18 + CTF
+最终 CTF Scale: 0.0000
+准确率: 0.9452
+
+                       precision    recall  f1-score   support
+
+A_Large_Merchant_Ship     0.9484    0.9600    0.9542     12228
+    B_Small_Speedboat     0.9316    0.9107    0.9210      7947
+       C_Fishing_Boat     0.9422    0.8825    0.9114      6332
+              D_Ferry     0.9429    0.9658    0.9542     19197
+      E_Ambient_Noise     0.9706    0.9636    0.9671      5139
+
+             accuracy                         0.9452     50843
+            macro avg     0.9471    0.9365    0.9416     50843
+         weighted avg     0.9452    0.9452    0.9450     50843

@@ -1,0 +1,19 @@
+模型: ResNet18
+模型路径: ./wst/logs/resnet18/small_10/20260430_122415/best_model.pth
+测试集路径: ./wst/wst_picture/wst_shipsear_small_90_test
+测试集样本数: 50843
+TTA: True
+============================================================
+准确率: 0.9279
+
+                       precision    recall  f1-score   support
+
+A_Large_Merchant_Ship     0.9494    0.9428    0.9461     12228
+    B_Small_Speedboat     0.9047    0.8338    0.8678      7947
+       C_Fishing_Boat     0.8880    0.9163    0.9019      6332
+              D_Ferry     0.9307    0.9455    0.9380     19197
+      E_Ambient_Noise     0.9491    0.9862    0.9673      5139
+
+             accuracy                         0.9279     50843
+            macro avg     0.9244    0.9249    0.9242     50843
+         weighted avg     0.9277    0.9279    0.9274     50843

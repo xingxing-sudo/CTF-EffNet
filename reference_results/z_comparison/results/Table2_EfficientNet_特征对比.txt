@@ -1,0 +1,6 @@
+ Feature  Test Acc
+CHIRPLET    0.9539
+     WST    0.9331
+     MEL    0.9301
+     CQT    0.9216
+    STFT    0.8953
