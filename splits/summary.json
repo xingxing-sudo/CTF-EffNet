@@ -1,0 +1,62 @@
+{
+  "chirplet": {
+    "partition_counts": {
+      "train": 3915,
+      "val": 862,
+      "test": 869,
+      "holdout": 50843
+    },
+    "duplicate_images_across_partitions": 0,
+    "recording_ids_in_both_small_sample_and_holdout": 90,
+    "manifest_matches_existing_membership_list": true
+  },
+  "cqt": {
+    "partition_counts": {
+      "train": 3915,
+      "val": 862,
+      "test": 869,
+      "holdout": 50843
+    },
+    "duplicate_images_across_partitions": 0,
+    "recording_ids_in_both_small_sample_and_holdout": 90,
+    "manifest_matches_existing_membership_list": true
+  },
+  "mel": {
+    "partition_counts": {
+      "train": 3915,
+      "val": 862,
+      "test": 869,
+      "holdout": 50843
+    },
+    "duplicate_images_across_partitions": 0,
+    "recording_ids_in_both_small_sample_and_holdout": 90,
+    "manifest_matches_existing_membership_list": true
+  },
+  "stft": {
+    "partition_counts": {
+      "train": 3915,
+      "val": 862,
+      "test": 869,
+      "holdout": 50843
+    },
+    "duplicate_images_across_partitions": 0,
+    "recording_ids_in_both_small_sample_and_holdout": 90,
+    "manifest_matches_existing_membership_list": true
+  },
+  "wst": {
+    "partition_counts": {
+      "train": 3915,
+      "val": 862,
+      "test": 869,
+      "holdout": 50843
+    },
+    "duplicate_images_across_partitions": 0,
+    "recording_ids_in_both_small_sample_and_holdout": 90,
+    "manifest_matches_existing_membership_list": true
+  },
+  "band_ablation": {
+    "train": 3954,
+    "val": 848,
+    "test": 51687
+  }
+}

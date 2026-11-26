@@ -1,0 +1,12 @@
+{
+  "deepship_reconstructed": {
+    "train": 2776,
+    "val": 594,
+    "test": 36292
+  },
+  "full_data_reconstructed": {
+    "train": 39505,
+    "val": 8471,
+    "test": 8513
+  }
+}
